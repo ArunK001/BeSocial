@@ -4,7 +4,7 @@ Just incase the API is discarded from dummyjson site, please make below changes
 
 Uncomment first section and comment other code to load the application from mock file.
 This commented is added intentionally.
-
+```
 struct BeSocialApp: App {
     var body: some Scene {
         WindowGroup {
@@ -16,6 +16,6 @@ struct BeSocialApp: App {
         }
     }
 }
-
+```
 NOTE: Project is added in zip file because I uploaded the application from browser.
 I don't have a personal latest Mac which supports xCode for SwiftUI coding.
